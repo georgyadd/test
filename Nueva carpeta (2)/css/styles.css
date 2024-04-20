@@ -1,0 +1,254 @@
+.container {
+  margin: 20px 0px;
+  padding: 0 30px;
+}
+
+.section-title {
+  font-size: 25px;
+  margin: 20px 15px;
+}
+
+.extra-margin {
+  margin-top: 100px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #181818f2;
+}
+
+.header img {
+  width: 200px;
+}
+
+.normal-btn {
+  background-color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.banner {
+  position: relative;
+  background-image: url("../public/banner.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.title {
+  font-size: 5rem;
+  color: white;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+.title-one {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-style: italic;
+  font-weight: 500;
+  width: 100%;
+}
+.title-two {
+  font-size: 5.5rem;
+  position: absolute;
+  top: 22%;
+  left: 16%;
+  font-weight: 700;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.search {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  bottom: 15%;
+  transform: translate(-50%, -15%);
+  border-radius: 50px;
+  padding: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.search > input {
+  background-color: transparent;
+  font-size: 20px;
+  width: 600px;
+  padding: 12px 15px;
+  box-shadow: none;
+}
+
+.search > img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  cursor: pointer;
+  transform: rotateX(180deg);
+  transform: rotateY(180deg);
+}
+
+.categories {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px 40px;
+}
+
+.category-item {
+  width: 250px;
+  height: 150px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.category-item > .name {
+  margin: 0;
+  margin-top: 10px;
+}
+
+.category-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+}
+
+.category-btn > img {
+  width: 120px;
+  height: 120px;
+}
+
+.business {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px 40px;
+}
+
+.business-item {
+  color: #4c4c4c;
+  background-color: white;
+  width: 400px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 15px;
+}
+
+.business-item > img {
+  width: 100%;
+}
+
+.business-item-body {
+  text-align: center;
+  padding: 5px 20px;
+}
+
+.business-item-body > .business-name {
+  margin: 0;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+.business-item-body > p {
+  margin: 10px 0px;
+  font-size: 20px;
+}
+
+.business-item-body > .business-dir {
+  text-decoration: underline;
+}
+
+.business-item-body > .business-tel {
+  margin: 10px 0px;
+  font-style: italic;
+}
+
+.business-item-body > .business-tel {
+  margin: 10px 0px;
+  font-style: italic;
+}
+
+.business-list {
+  padding: 0px 10px;
+  padding-bottom: 10px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.business-list > .business-list-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 22px;
+  margin: 10px 0;
+}
+
+.business-list > .business-list-item > img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.footer {
+  color: white;
+  text-align: center;
+  background-color: #181818f2;
+  padding: 10px;
+  
+}
+
+.footer > p {
+  font-size: 25px;
+}
+
+.footer > p:first-child {
+  font-weight: 700;
+}
+
+.footer > .stars > img {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.footer > form > .comments {
+  width: 40%;
+  height: 70px;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px;
+
+}
+
+.footer > form > .submit-btn {
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  padding: 5px 30px;
+  border-radius: 15px;
+  cursor: pointer;
+}
